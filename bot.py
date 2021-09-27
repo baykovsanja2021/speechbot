@@ -4,7 +4,7 @@ from telegram.ext import Updater,CommandHandler,CallbackContext,MessageHandler,F
 
 from voice import text_to_file
 
-TOKEN="1823480173:AAG8KHIxzYmZvtq3sSidAlYzxJK5-ddTVSw"
+TOKEN="MY_TOKEN"
 
 def hello(update,context) :
     update.message.reply_text(f'Hello {update.effective_user.first_name}')
